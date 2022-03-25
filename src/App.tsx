@@ -7,9 +7,9 @@ import { TabsExample } from './components/tabExample';
 function App(): JSX.Element {
   return (
     <div id="body">
-      <NavbarExample id="a"/>
+      <NavbarExample/>
       <ToggleContainer />
-      <TabsExample id="a" />
+      <TabsExample />
     </div>
   );
 }
